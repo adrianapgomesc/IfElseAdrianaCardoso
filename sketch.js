@@ -18,7 +18,7 @@ function draw() {
 
     strokeWeight(espessura);
 
-    if (mouseIsPressed === true) {
+    if (mouseIsPressed) {
       movimento += 2;
     }
 
@@ -35,7 +35,7 @@ function draw() {
 
     strokeWeight(espessura);
 
-    if (mouseIsPressed === true) {
+    if (mouseIsPressed) {
       movimento += 2;
     }
 
